@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
           
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Login"),
+            const Text("Login"),
             TextField(decoration: InputDecoration(hintText: 'abcds', label: Text('Username'), border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))), ),
           ],
         ),
